@@ -1,0 +1,233 @@
+{
+  "system_name": "Darukaa.Earth Biodiversity & Environmental Metrics Ontology",
+  "version": "1.0.0",
+  "domains": {
+    "soil_health": {
+      "name": "Soil Health & Biogeochemistry",
+      "description": "Biological, chemical, and physical parameters governing soil function and nutrient cycles",
+      "metrics": {
+        "soil_ph": {
+          "id": "soil_ph",
+          "name": "Soil pH",
+          "unit": "pH scale (0-14)",
+          "optimal_range": [6.0, 7.3],
+          "degraded_thresholds": {"strongly_acidic": "< 5.5", "strongly_alkaline": "> 8.2"},
+          "ecological_role": "Determines nutrient solubility, cation exchange capacity (CEC), and bacterial vs fungal dominance.",
+          "impacted_by": ["chemical_fertilizers", "acid_deposition", "organic_matter_addition"],
+          "affects": ["microbial_diversity", "plant_nutrient_uptake", "soil_fertility"]
+        },
+        "soil_organic_carbon": {
+          "id": "soil_organic_carbon",
+          "name": "Soil Organic Carbon (SOC)",
+          "unit": "% dry weight",
+          "optimal_range": [2.5, 6.0],
+          "degraded_thresholds": {"severely_depleted": "< 1.0", "low": "< 1.8"},
+          "ecological_role": "Core foundation of soil structure, microbial energy supply, water-holding capacity, and climate carbon sink.",
+          "impacted_by": ["tillage_intensity", "cover_cropping", "organic_amendments", "crop_residue_burning"],
+          "affects": ["soil_moisture_retention", "microbial_diversity", "soil_structure", "erosion_resistance"]
+        },
+        "soil_moisture": {
+          "id": "soil_moisture",
+          "name": "Soil Moisture / Available Water Capacity",
+          "unit": "% volumetric water content (VWC)",
+          "optimal_range": [22.0, 38.0],
+          "degraded_thresholds": {"wilting_point_stress": "< 12.0", "waterlogging_anoxia": "> 45.0"},
+          "ecological_role": "Medium for plant transpiration, rhizosphere solute transport, and subterranean organism mobility.",
+          "impacted_by": ["soil_organic_carbon", "soil_compaction", "rainfall_pattern", "vegetation_cover"],
+          "affects": ["plant_resilience", "microbial_respiration", "drought_susceptibility"]
+        },
+        "soil_fertility": {
+          "id": "soil_fertility",
+          "name": "Soil Fertility Index & CEC",
+          "unit": "Index (0-100) / cmol(+)/kg",
+          "optimal_range": [65, 95],
+          "degraded_thresholds": {"nutrient_depleted": "< 30"},
+          "ecological_role": "Available nitrogen (N), phosphorus (P), potassium (K), micronutrients, and base saturation.",
+          "impacted_by": ["microbial_activity", "synthetic_overfertilization", "crop_rotation", "leaching"],
+          "affects": ["biomass_productivity", "habitat_quality", "mycorrhizal_associations"]
+        },
+        "soil_degradation_indicators": {
+          "id": "soil_degradation_indicators",
+          "name": "Soil Degradation & Compaction Index",
+          "unit": "Degradation severity score (0-100, lower is healthier)",
+          "optimal_range": [0, 20],
+          "degraded_thresholds": {"moderate": "35-60", "critical": "> 60"},
+          "indicators": ["Bulk density > 1.55 g/cm3 (compaction)", "Wind/water erosion > 10 t/ha/yr", "Electrical conductivity > 4 dS/m (salinization)"],
+          "impacted_by": ["heavy_machinery_traffic", "bare_fallow", "saline_irrigation", "deforestation"],
+          "affects": ["root_penetration", "water_infiltration", "subsurface_biodiversity"]
+        }
+      }
+    },
+    "land_use_cover": {
+      "name": "Land Use & Land Cover (LULC)",
+      "description": "Spatial management, canopy structure, and land classification dynamics",
+      "metrics": {
+        "land_cover_class": {
+          "id": "land_cover_class",
+          "name": "Land Cover Classification",
+          "classes": ["Primary Forest", "Secondary Forest", "Agricultural Cropland", "Grassland/Savanna", "Wetland", "Urban/Built-up"],
+          "ecological_role": "Defines macroscopic energy flux, surface albedo, evapotranspiration, and structural habitat layers."
+        },
+        "agricultural_system": {
+          "id": "agricultural_system",
+          "name": "Agricultural Cropping System",
+          "types": ["Intensive Monoculture", "Conventional Rotation", "Agroforestry / Silvopasture", "Polyculture / Intercropping", "Regenerative Organic"],
+          "ecological_role": "Directly controls plant genetic heterogeneity, continuous living root presence, and trophic support for arthropods.",
+          "affects": ["pollinator_diversity", "soil_organic_carbon", "pest_predator_balance"]
+        },
+        "habitat_fragmentation": {
+          "id": "habitat_fragmentation",
+          "name": "Habitat Fragmentation & Edge Effect",
+          "unit": "Fragmentation index (0-100, where 100 is hyper-fragmented)",
+          "optimal_range": [0, 25],
+          "degraded_thresholds": {"severe_isolation": "> 55"},
+          "ecological_role": "Quantifies average patch size, distance to nearest ecological corridor, and perimeter-to-area edge exposure.",
+          "impacted_by": ["roads", "agricultural_expansion", "clear-cutting"],
+          "affects": ["gene_flow", "species_survival_indicators", "invasive_spread", "microclimate_stability"]
+        }
+      }
+    },
+    "biodiversity": {
+      "name": "Biodiversity & Ecological Integrity",
+      "description": "Species, genetic, functional, and community-level ecosystem health metrics",
+      "metrics": {
+        "species_richness": {
+          "id": "species_richness",
+          "name": "Species Richness & Alpha Diversity",
+          "unit": "Count of native taxa / Shannon-Wiener Index (H')",
+          "optimal_range": [2.8, 4.5],
+          "degraded_thresholds": {"depauperate": "< 1.5"},
+          "ecological_role": "Number of co-occurring species within an ecological guild, driving ecosystem functional redundancy.",
+          "impacted_by": ["habitat_fragmentation", "pesticide_load", "structural_diversity"],
+          "affects": ["ecosystem_resilience", "trophic_stability", "biological_control"]
+        },
+        "pollinator_diversity": {
+          "id": "pollinator_diversity",
+          "name": "Pollinator Diversity & Abundance",
+          "unit": "Pollinator Index (0-100, wild bees, hoverflies, lepidoptera)",
+          "optimal_range": [65, 100],
+          "degraded_thresholds": {"critical_pollination_deficit": "< 30"},
+          "ecological_role": "Enables reproduction of ~87.5% of all flowering plants and 75% of global food crops.",
+          "impacted_by": ["monoculture", "synthetic_insecticides", "floral_resource_seasonality", "nesting_habitat_loss"],
+          "affects": ["crop_yield_stability", "wild_plant_regeneration"]
+        },
+        "microbial_diversity": {
+          "id": "microbial_diversity",
+          "name": "Soil Microbial Diversity & Fungal-to-Bacterial Ratio (F:B)",
+          "unit": "F:B ratio (0.1 - 2.5) / Microbial Biomass Carbon (mg C/kg)",
+          "optimal_range": [0.6, 1.8],
+          "degraded_thresholds": {"bacterial_dominated_stressed": "< 0.25", "depleted_biomass": "< 150 mg C/kg"},
+          "ecological_role": "Governs organic matter mineralization, glomalin production, mycorrhizal networks, and disease suppression.",
+          "impacted_by": ["soil_ph", "synthetic_fungicides", "tillage", "soil_organic_carbon"],
+          "affects": ["soil_structure", "nutrient_cycling", "carbon_sequestration"]
+        },
+        "native_species_ratio": {
+          "id": "native_species_ratio",
+          "name": "Native vs Invasive Species Ratio",
+          "unit": "% native floral and faunal biomass",
+          "optimal_range": [80.0, 100.0],
+          "degraded_thresholds": {"invasive_swamping": "< 50.0"},
+          "ecological_role": "Preserves co-evolved evolutionary associations, specialized pollination syndromes, and native food webs.",
+          "affects": ["habitat_quality", "ecosystem_stability"]
+        },
+        "habitat_quality": {
+          "id": "habitat_quality",
+          "name": "Habitat Quality Index",
+          "unit": "Score (0-100)",
+          "optimal_range": [70, 100],
+          "degraded_thresholds": {"degraded": "< 40"},
+          "ecological_role": "Composite measure of canopy strata, deadwood volume, leaf litter depth, and water access."
+        },
+        "species_survival_indicators": {
+          "id": "species_survival_indicators",
+          "name": "Species Survival & Extinction Risk Indicators",
+          "unit": "IUCN Red List Categories (LC, NT, VU, EN, CR) / Population Trend Index",
+          "ecological_role": "Tracks population trajectory, minimum viable territory, and vulnerability to climatic shocks."
+        }
+      }
+    },
+    "climate": {
+      "name": "Climate & Hydrological Dynamics",
+      "description": "Atmospheric variables, precipitation regimes, and extreme weather stressors",
+      "metrics": {
+        "temperature": {
+          "id": "temperature",
+          "name": "Mean Annual Temperature & Thermal Extremes",
+          "unit": "Degrees Celsius (°C)",
+          "ecological_role": "Controls metabolic rates, evapotranspiration demand, phenology, and thermal envelope thresholds.",
+          "affects": ["soil_moisture", "respiration_rates", "species_distribution_shifts"]
+        },
+        "rainfall": {
+          "id": "rainfall",
+          "name": "Annual Precipitation",
+          "unit": "mm / year",
+          "ecological_role": "Primary hydrologic input replenishing surface waters, groundwater aquifers, and root-zone moisture."
+        },
+        "rainfall_pattern": {
+          "id": "rainfall_pattern",
+          "name": "Rainfall Seasonality & Intensity Pattern",
+          "classes": ["Uniform year-round", "Unimodal monsoon", "Bimodal wet seasons", "Mediterranean (winter wet)", "Erratic / Flash convective"],
+          "ecological_role": "Governs seasonal dormancy, germination triggers, and erosion energy (erosivity index EI30).",
+          "affects": ["soil_erosion_rate", "vegetation_phenology", "aquifer_recharge"]
+        },
+        "drought_conditions": {
+          "id": "drought_conditions",
+          "name": "Drought Severity Index (SPEI)",
+          "unit": "Standardized Precipitation Evapotranspiration Index (-3.0 to +3.0)",
+          "optimal_range": [-0.5, 1.0],
+          "degraded_thresholds": {"severe_drought": "< -1.5", "extreme_drought": "< -2.0"},
+          "ecological_role": "Captures combined moisture deficit from reduced rainfall and elevated vapor pressure deficit (VPD)."
+        },
+        "climate_zone": {
+          "id": "climate_zone",
+          "name": "Köppen-Geiger Climate Zone",
+          "classes": ["Af/Am/Aw (Tropical)", "BWh/BWk (Arid Desert)", "BSh/BSk (Semi-Arid Steppe)", "Cfa/Cfb/Cs (Temperate)", "D (Continental)", "E (Polar/Alpine)"],
+          "ecological_role": "Defines baseline ecological biome constraints, climatic envelopes, and native floral adaptations."
+        }
+      }
+    },
+    "human_impact": {
+      "name": "Anthropogenic Pressure & Landscape Degradation",
+      "description": "Direct human-induced stressors, land conversion, and chemical loading",
+      "metrics": {
+        "chemical_pollution": {
+          "id": "chemical_pollution",
+          "name": "Agrochemical & Environmental Pollution Index",
+          "unit": "Synthetic N-P loading (kg/ha/yr) & Pesticide toxicity load (ETI score)",
+          "optimal_range": [0, 25],
+          "degraded_thresholds": {"high_toxicity_load": "> 75"},
+          "ecological_role": "Causes eutrophication in aquatic buffers, collapses mycorrhizae, and produces non-target pollinator mortality."
+        },
+        "deforestation_rate": {
+          "id": "deforestation_rate",
+          "name": "Deforestation & Canopy Loss Rate",
+          "unit": "% canopy cover lost per decade / ha/yr",
+          "optimal_range": [0.0, 0.5],
+          "degraded_thresholds": {"rapid_conversion": "> 2.5% / decade"},
+          "ecological_role": "Destroys carbon biomass, interrupts biotic rainfall pumps, and drives severe local microclimate heating."
+        },
+        "agricultural_intensity": {
+          "id": "agricultural_intensity",
+          "name": "Agricultural Management Intensity",
+          "unit": "Intensity Score (0-100, accounting for tillage, monoculture index, chemical inputs)",
+          "optimal_range": [10, 40],
+          "degraded_thresholds": {"hyper_intensive": "> 70"},
+          "ecological_role": "Drives chronic disruption of biological cycles through repeated tillage, chemical fertilization, and landscape homogenization."
+        },
+        "land_degradation": {
+          "id": "land_degradation",
+          "name": "Land Degradation & Desertification Status",
+          "unit": "Status (None, Slight, Moderate, Severe, Extreme) / Soil Loss t/ha/yr",
+          "ecological_role": "Permanent decline in biological and economic productivity of rainfed or irrigated lands."
+        },
+        "habitat_destruction": {
+          "id": "habitat_destruction",
+          "name": "Habitat Destruction & Anthropogenic Footprint",
+          "unit": "Human Footprint Index (0-100)",
+          "optimal_range": [0, 20],
+          "degraded_thresholds": {"critically_altered": "> 60"}
+        }
+      }
+    }
+  }
+}

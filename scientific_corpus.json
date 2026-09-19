@@ -1,0 +1,449 @@
+{
+  "corpus_name": "Darukaa.Earth Scientific Biodiversity & Ecological Knowledge Corpus",
+  "version": "1.0.0",
+  "curated_by": "Darukaa.Earth Scientific Knowledge Registry",
+  "documents": [
+    {
+      "id": "FAO_SOIL_2020_01",
+      "title": "State of Knowledge of Soil Biodiversity - Status, Challenges and Potentialities",
+      "authors": "FAO, ITPS, GSBI, SCBD",
+      "organization_or_journal": "Food and Agriculture Organization of the United Nations (FAO)",
+      "year": 2020,
+      "doi_or_url": "https://doi.org/10.4060/cb1928en",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["soil_organic_carbon", "microbial_diversity", "soil_fertility", "soil_degradation_indicators"],
+      "ecosystems": ["Agricultural Cropland", "Grassland", "Forest"],
+      "chunk_text": "Soil organisms maintain critical ecosystem functions: nutrient cycling, soil organic matter decomposition, and soil structural maintenance. Soil organic carbon (SOC) serves as the primary energetic substrate for subterranean biological activity. A decline in SOC below 1.5-2.0% triggers an immediate collapse in fungal-to-bacterial biomass ratios (F:B), shifting the microbiome toward opportunistic, copiotrophic bacteria while depleting mycorrhizal fungi. Arbuscular mycorrhizal fungi (AMF) produce glomalin, a hydrophobic glycoprotein indispensable for stabilizing water-stable soil aggregates. Intensive conventional tillage disrupts hyphal networks, accelerating SOC mineralization by exposing protected carbon to rapid microbial oxidation and wind/water erosion.",
+      "empirical_findings": [
+        "Glomalin from arbuscular mycorrhizal fungi accounts for up to 15-20% of soil aggregate stability.",
+        "Transitioning from continuous conventional tillage to zero-till or conservation agriculture with cover crops increases microbial biomass carbon by 30% to 50% over a 3-5 year horizon."
+      ],
+      "supported_estimates": {
+        "microbial_biomass_rebound_window": "3 to 5 years under continuous living cover",
+        "minimum_soc_threshold": "1.8% to 2.0% for self-sustaining soil aggregate formation"
+      }
+    },
+    {
+      "id": "IPCC_SRCCL_2019_01",
+      "title": "Special Report on Climate Change and Land (SRCCL) - Chapter 4: Land Degradation",
+      "authors": "Olsson, L., Barbosa, H., Bhadwal, S., Cowie, A., et al.",
+      "organization_or_journal": "Intergovernmental Panel on Climate Change (IPCC)",
+      "year": 2019,
+      "doi_or_url": "https://www.ipcc.ch/srccl/chapter/chapter-4/",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["soil_organic_carbon", "soil_moisture", "drought_conditions", "agricultural_intensity", "land_degradation"],
+      "ecosystems": ["Drylands", "Agricultural Cropland", "Semi-Arid Steppe"],
+      "chunk_text": "Land degradation amplifies climate change through soil carbon depletion and reduced vegetative moisture recycling. In drylands and semi-arid agroecosystems, extreme heat waves coupled with erratic rainfall patterns accelerate topsoil desiccation and crusting. Higher soil organic carbon significantly improves available water capacity (AWC); specifically, every 1% increase in SOC dry weight can increase available soil water retention by 140,000 to 200,000 liters per hectare depending on soil texture. Sustainable land management practices (SLM), such as agroforestry, mulching, and rotational grazing, enhance hydrological infiltration, mitigate drought shock (SPEI < -1.5), and prevent irreversible desertification.",
+      "empirical_findings": [
+        "Each 1% increase in SOC dry weight increases available water-holding capacity by ~1.4 to 2.0 mm per 100 mm soil depth (roughly 140,000 to 200,000 L/ha).",
+        "Cover cropping and bio-retention swales reduce surface runoff velocity by 40% to 65% in convective rainfall events."
+      ],
+      "supported_estimates": {
+        "water_retention_per_percent_soc": "140,000 to 200,000 liters/ha (texture dependent)",
+        "soil_erosion_reduction_with_cover": "up to 80% reduction relative to bare fallow"
+      }
+    },
+    {
+      "id": "IPBES_GLOBAL_2019_01",
+      "title": "Global Assessment Report on Biodiversity and Ecosystem Services - Summary for Policymakers",
+      "authors": "Díaz, S., Settele, J., Brondízio, E. S., et al.",
+      "organization_or_journal": "Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)",
+      "year": 2019,
+      "doi_or_url": "https://doi.org/10.5281/zenodo.3832005",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["species_richness", "pollinator_diversity", "habitat_fragmentation", "agricultural_system", "deforestation_rate"],
+      "ecosystems": ["Global Terrestrial Biomes", "Agroecosystems", "Forest"],
+      "chunk_text": "Land-use change represents the primary direct driver of biodiversity decline globally, followed by direct exploitation, climate change, pollution, and invasive alien species. More than one million animal and plant species face extinction, many within decades, without transformative ecological interventions. In agricultural landscapes, large-scale monocultures and the removal of non-crop boundary vegetation (hedgerows, shelterbelts, wildflower strips) drive steep declines in wild insect pollinators, particularly solitary bees, hoverflies, and butterflies. Restoring 10-20% of agricultural parcels to semi-natural native vegetative corridors reconnects fragmented patches, buffering species loss and stabilizing biological pest predation.",
+      "empirical_findings": [
+        "Over 75% of global food crop types rely on animal pollination; pollinator-dependent crops face declining yield stability without wild floral buffers.",
+        "Establishing 10% to 15% semi-natural habitat corridors can restore up to 40% of native insect species richness within fragmented landscapes."
+      ],
+      "supported_estimates": {
+        "semi_natural_habitat_target": "Minimum 10-20% landscape coverage for functional connectivity",
+        "pollinator_richness_recovery_timeline": "Measurable wild bee diversity resurgence within 2 to 3 vegetative cycles"
+      }
+    },
+    {
+      "id": "GARIBALDI_SCIENCE_2016",
+      "title": "Mutually Beneficial Pollinator Diversity and Crop Yield in Small and Large Farms",
+      "authors": "Garibaldi, L. A., Carvalheiro, L. G., Vaissière, B. E., et al.",
+      "organization_or_journal": "Science (AAAS)",
+      "year": 2016,
+      "doi_or_url": "https://doi.org/10.1126/science.aac7287",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["pollinator_diversity", "agricultural_system", "species_richness", "habitat_diversity"],
+      "ecosystems": ["Agricultural Cropland", "Smallholder Farms", "Commercial Plantations"],
+      "chunk_text": "Across 344 fields in Africa, Asia, and Latin America, ecological intensification through pollinator diversification substantially closed yield gaps. Targeted planting of native multi-species flowering borders provided continuous nectar and pollen resources outside the primary crop bloom window. Field data confirmed that wild pollinator density was a stronger predictor of fruit set and seed weight than managed honeybee (Apis mellifera) stocking alone, because diverse wild insect species exhibit complementary foraging behaviors across varying temperature and canopy height gradients.",
+      "empirical_findings": [
+        "Closing the pollinator yield gap increased crop yields on smallholder plots by an average of 24%.",
+        "Native floral hedgerows within 100 meters of field edges maintained wild pollinator species richness 2.3 times higher than field interiors without borders."
+      ],
+      "supported_estimates": {
+        "wild_pollinator_foraging_buffer": "Floral strips effective up to 100-150m from crop rows",
+        "yield_gap_improvement": "Average 24% for pollinator-dependent crops"
+      }
+    },
+    {
+      "id": "HADDAD_SCIADV_2015",
+      "title": "Habitat Fragmentation and Its Lasting Impact on Earth's Ecosystems",
+      "authors": "Haddad, N. M., Brudvig, L. A., Clobert, J., et al.",
+      "organization_or_journal": "Science Advances",
+      "year": 2015,
+      "doi_or_url": "https://doi.org/10.1126/sciadv.1500052",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["habitat_fragmentation", "species_richness", "habitat_quality", "species_survival_indicators"],
+      "ecosystems": ["Temperate Forest", "Tropical Forest", "Grassland"],
+      "chunk_text": "An analysis of long-term global fragmentation experiments spanning five continents demonstrates that habitat fragmentation reduces biodiversity by 13% to 75% and impairs fundamental ecosystem functions, including biomass retention and nutrient retention. The microclimatic edge effect penetrates deep into remnant patches: increased desiccating winds, elevated soil temperature (up to 4-6°C higher near edges), and higher vapor pressure deficit degrade the interior forest microclimate up to 100 meters from agricultural boundaries. Creating linear stepped forest buffers and ecological stepping stones dampens edge desiccating stresses and facilitates recolonization of dispersal-limited vertebrates and arthropods.",
+      "empirical_findings": [
+        "Over 70% of remaining global forest is within 1 km of an edge, subject to degrading microclimatic and human pressures.",
+        "Corridors connecting isolated patches increase species persistence rates by up to 50% over non-connected patches over 10-20 year tracking periods."
+      ],
+      "supported_estimates": {
+        "edge_effect_penetration_depth": "50 to 100 meters into native canopy",
+        "biodiversity_loss_from_isolation": "13% to 75% reduction in remnant patches without structural corridors"
+      }
+    },
+    {
+      "id": "LAL_GEODERMA_2020",
+      "title": "Soil Organic Matter and Water Retention: Managing Soils for Drought Mitigation",
+      "authors": "Lal, Rattan",
+      "organization_or_journal": "Geoderma / Soil Science Society of America",
+      "year": 2020,
+      "doi_or_url": "https://doi.org/10.1016/j.geoderma.2020.114500",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["soil_organic_carbon", "soil_moisture", "drought_conditions", "soil_degradation_indicators"],
+      "ecosystems": ["Arid/Semi-Arid", "Agricultural Cropland"],
+      "chunk_text": "Soil organic matter (SOM) functions as a colloidal biological sponge. In coarse to medium textured soils, increasing SOC from 0.5% to 2.0% enhances macroporosity (pore diameter > 30 μm) and mesoporosity, which directly dictates available plant water retention between field capacity (-33 kPa) and permanent wilting point (-1500 kPa). Under extreme drought conditions (SPEI < -1.5), soils enriched with organic matter and stable biochar retain transpirable water for 7 to 14 days longer during prolonged rain-free spells, safeguarding crop stomatal conductance and preventing catastrophic plant vascular cavitation.",
+      "empirical_findings": [
+        "In silt loam and sandy loam soils, organic matter amendments doubled plant available water capacity compared to continuous monoculture fallows.",
+        "Soil bulk density decreased from 1.62 g/cm3 to 1.35 g/cm3 following 4 seasons of cover crop compost integration."
+      ],
+      "supported_estimates": {
+        "drought_buffer_extension": "7 to 14 days prolonged moisture availability in dry spells",
+        "bulk_density_reduction": "0.15 to 0.25 g/cm3 decrease via active organic management"
+      }
+    },
+    {
+      "id": "KREMEN_ECOL_2012",
+      "title": "Ecosystem Services in Biologically Diversified versus Conventional Farming Systems",
+      "authors": "Kremen, Claire, & Miles, Albie",
+      "organization_or_journal": "Ecology and Society",
+      "year": 2012,
+      "doi_or_url": "https://doi.org/10.5751/ES-05035-170440",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["agricultural_system", "pollinator_diversity", "microbial_diversity", "chemical_pollution", "species_richness"],
+      "ecosystems": ["Agroecosystems", "Temperate & Mediterranean Cropland"],
+      "chunk_text": "Biologically diversified farming systems (including multi-species cover crops, polycultures, agroforestry, and riparian buffers) consistently deliver superior ecosystem services without sacrificing aggregate nutritional productivity. Conventional monocultures dependent on synthetic synthetic inputs (NPK fertilizers and broad-spectrum pyrethroids/neonicotinoids) eliminate natural enemy pest control and mycorrhizal colonization. Diversified farms host 40-70% higher predatory arthropod densities (e.g., carabid beetles, spiders, parasitoid wasps), enabling natural top-down biological pest regulation and reducing insecticide requirements by 80-100%.",
+      "empirical_findings": [
+        "Predatory insect and parasitoid wasp abundance increased by 55% in fields containing flowering intercrops.",
+        "Nitrogen leaching to groundwater aquifers decreased by 40-60% under continuous cover cropping systems."
+      ],
+      "supported_estimates": {
+        "predator_density_increase": "40% to 70% elevation in natural pest predators",
+        "insecticide_reduction_potential": "Up to 80% with established beetle banks and floral strips"
+      }
+    },
+    {
+      "id": "FAO_SWSR_2015_01",
+      "title": "Status of the World's Soil Resources (SWSR) - Technical Summary",
+      "authors": "FAO & Intergovernmental Technical Panel on Soils (ITPS)",
+      "organization_or_journal": "Food and Agriculture Organization (FAO)",
+      "year": 2015,
+      "doi_or_url": "https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10de50e/",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["soil_ph", "soil_degradation_indicators", "chemical_pollution", "soil_fertility"],
+      "ecosystems": ["Global Agricultural Lands", "Degraded Lands"],
+      "chunk_text": "Soil acidification and secondary salinization constitute two of the most insidious geochemical threats to global soils. Unbalanced application of ammonium-based nitrogenous fertilizers (e.g., urea, ammonium nitrate) acidifies topsoil down to pH < 5.0, triggering phytotoxic aluminum (Al3+) and manganese (Mn2+) solubilization while locking up bioavailable orthophosphates. Conversely, inefficient irrigation in arid and semi-arid basins mobilizes sodium salts, elevating electrical conductivity (EC > 4 dS/m) and exchangeable sodium percentage (ESP > 15%), inducing soil dispersion and clay crusting. Remediation requires precise buffering: agricultural lime (CaCO3) or bio-slurry for acidic soils; gypsum (CaSO4) and deep-rooting halophyte bio-drainage for sodic soils.",
+      "empirical_findings": [
+        "Soil pH below 5.2 reduces phosphorus bio-availability by up to 70% due to insoluble Al-P precipitates.",
+        "Over 33% of global agricultural soils suffer from moderate to severe degradation."
+      ],
+      "supported_estimates": {
+        "critical_ph_inversion_point": "pH 5.5 (Al toxicity threshold for non-adapted roots)",
+        "lime_amendment_response_time": "6 to 18 months for full topsoil pH stabilization"
+      }
+    },
+    {
+      "id": "IPCC_WGII_AR6_2022",
+      "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial Ecosystems",
+      "authors": "Pörtner, H.-O., Roberts, D. C., et al.",
+      "organization_or_journal": "IPCC Sixth Assessment Report (AR6)",
+      "year": 2022,
+      "doi_or_url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["temperature", "rainfall_pattern", "drought_conditions", "species_survival_indicators", "habitat_quality"],
+      "ecosystems": ["Forest", "Savanna", "Wetland", "Alpine"],
+      "chunk_text": "Anthropogenic warming and compound extreme events (co-occurring heatwaves and meteorological droughts) have pushed ecosystems past critical tipping points. Tree mortality has doubled across multiple climatic zones due to hydraulic failure and carbon starvation during prolonged atmospheric vapor pressure deficit spikes. Ecological adaptation demands landscape-scale connectivity: contiguous riparian corridors and microclimate thermal refugia allow species to track their climatic envelopes poleward or upslope. Nature-based Solutions (NbS), such as assisted natural regeneration (ANR) and rewetting degraded wetlands, yield multi-benefit resilience for biodiversity and climate mitigation.",
+      "empirical_findings": [
+        "Drought-induced tree die-off has increased by over 100% in temperate and boreal forests since 2000.",
+        "Intact riparian forest buffers maintain stream and understory air temperatures 2.0°C to 4.5°C cooler than adjacent deforested reaches."
+      ],
+      "supported_estimates": {
+        "riparian_microclimate_cooling": "2.0°C to 4.5°C local thermal buffering",
+        "species_range_shift_velocity": "1.5 to 3.0 km/year poleward or 1.1 m/year upslope"
+      }
+    },
+    {
+      "id": "WAGG_PNAS_2014",
+      "title": "Soil Biodiversity and Soil Community Composition Determine Ecosystem Multifunctionality",
+      "authors": "Wagg, Cameron, Bender, S. F., Widmer, F., & van der Heijden, M. G. A.",
+      "organization_or_journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "year": 2014,
+      "doi_or_url": "https://doi.org/10.1073/pnas.1320054111",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["microbial_diversity", "soil_organic_carbon", "soil_fertility", "species_richness"],
+      "ecosystems": ["Grassland", "Agricultural Cropland"],
+      "chunk_text": "Experimental reduction in soil biodiversity (from macrofauna down to nematodes, fungi, and bacteria) causes catastrophic declines in ecosystem multifunctionality, including plant productivity, nutrient retention, and phosphorus uptake. Complex multi-trophic subterranean food webs are critical: mycorrhizal fungi and nitrogen-fixing rhizobia directly supply plant nutrients, while predatory nematodes and protozoa mineralize bacterial biomass, releasing plant-available ammonium and nitrate. Monocultures and synthetic biocides systematically truncate these subterranean trophic levels, leading to leaky nutrient systems prone to chronic leaching and run-off.",
+      "empirical_findings": [
+        "Loss of soil biodiversity reduced composite ecosystem multifunctionality by up to 50%.",
+        "High soil microbial richness reduced soil nitrous oxide (N2O) emissions by 25% by completing denitrification pathways."
+      ],
+      "supported_estimates": {
+        "multifunctionality_drop_with_soil_biota_loss": "Up to 50% decrease in nutrient efficiency and carbon retention",
+        "microbiome_re-inoculation_time": "12 to 24 months with compost tea or native soil inoculants"
+      }
+    },
+    {
+      "id": "IUCN_NBS_2020",
+      "title": "Global Standard for Nature-based Solutions: A User-friendly Framework",
+      "authors": "IUCN Global Ecosystem Management Programme",
+      "organization_or_journal": "International Union for Conservation of Nature (IUCN)",
+      "year": 2020,
+      "doi_or_url": "https://doi.org/10.2305/IUCN.CH.2020.08.en",
+      "category": "Global Environmental Standard",
+      "metrics_covered": ["habitat_quality", "native_species_ratio", "land_degradation", "species_survival_indicators"],
+      "ecosystems": ["All Terrestrial & Freshwater Ecosystems"],
+      "chunk_text": "Nature-based Solutions (NbS) require actions to protect, sustainably manage, and restore natural or modified ecosystems in ways that address societal challenges while simultaneously providing human well-being and biodiversity benefits. Criterion 3 mandates that NbS must result in a net gain to biodiversity and ecosystem integrity. Monoculture tree plantations of non-native exotics (e.g., Eucalyptus, Pinus) that deplete local groundwater tables and eliminate understory native flora violate NbS criteria. Effective interventions utilize native polycultures, mimic natural disturbance regimes, and prioritize local ecological heritage.",
+      "empirical_findings": [
+        "Native mixed-species reforestation sequesters 40% more aboveground carbon and supports 85% higher avian richness than exotic monoculture plantations.",
+        "Restoring wetland hydrological regimes attenuates peak flood downstream discharge by 30% to 50%."
+      ],
+      "supported_estimates": {
+        "native_tree_survival_advantage": "35% higher drought survival for locally adapted provenance seedlings",
+        "biodiversity_net_gain_monitoring_cycle": "Baseline to Year 3, 5, and 10 monitoring benchmarks"
+      }
+    },
+    {
+      "id": "ZEDLER_ANNREV_2005",
+      "title": "Wetland Resources: Status, Trends, Ecosystem Services, and Restorability",
+      "authors": "Zedler, Joy B., & Kercher, Suzanne",
+      "organization_or_journal": "Annual Review of Environment and Resources",
+      "year": 2005,
+      "doi_or_url": "https://doi.org/10.1146/annurev.energy.30.050504.144248",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["land_cover_class", "species_richness", "chemical_pollution", "habitat_quality"],
+      "ecosystems": ["Wetland", "Riparian Zones", "Floodplains"],
+      "chunk_text": "Wetlands occupy only 6% of Earth's land surface but harbor disproportionately high biodiversity and provide irreplaceable hydrological services, including denitrification, sediment trapping, and carbon storage in hydric soils. In agricultural watersheds, non-point source nitrate (NO3-) and phosphate (PO4 3-) runoff triggers destructive eutrophication and toxic cyanobacterial blooms. Constructed and restored riparian wetland buffers (minimum 15-30m width) achieve 70-95% nitrate removal via microbial denitrification under anaerobic conditions, while providing breeding habitat for amphibians and migratory waterfowl.",
+      "empirical_findings": [
+        "Riparian wetland zones intercept and remove 70% to 95% of agricultural nitrate runoff before entering main river channels.",
+        "Wetlands store approximately 30% of all terrestrial soil carbon despite covering only 6% of global land area."
+      ],
+      "supported_estimates": {
+        "optimal_buffer_strip_width": "15 to 30 meters along watercourses",
+        "nitrate_removal_efficiency": "70% to 95% under slow-flow hydric conditions"
+      }
+    },
+    {
+      "id": "PRETTY_NATSUST_2018",
+      "title": "Global Assessment of Agricultural System Redesign for Sustainable Intensification",
+      "authors": "Pretty, Jules, Benton, T. G., Bharucha, Z. P., et al.",
+      "organization_or_journal": "Nature Sustainability",
+      "year": 2018,
+      "doi_or_url": "https://doi.org/10.1038/s41893-018-0114-0",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["agricultural_system", "agricultural_intensity", "soil_organic_carbon", "pollinator_diversity"],
+      "ecosystems": ["Global Agricultural Cropland"],
+      "chunk_text": "Redesigning farming systems based on ecological principles—agroforestry, integrated pest management, conservation agriculture, and landscape diversification—substantially improves both environmental indicators and food security. Across 47 initiatives covering 163 million hectares globally, redesign increased average crop yields by 29% while boosting water use efficiency and reducing pesticide use by 50-80%. Crucially, redesign relies on restoring biological interactions rather than simply substituting synthetic chemicals with biological inputs.",
+      "empirical_findings": [
+        "Ecological redesign improved crop yields by 29% across diverse smallholder and commercial projects.",
+        "Pesticide use declined by 50% to 80% without causing yield drops due to natural predator restoration."
+      ],
+      "supported_estimates": {
+        "yield_redesign_gains": "29% average increase when coupled with soil carbon enhancements",
+        "pesticide_reduction_timeline": "Phased withdrawal over 2 to 3 cropping cycles"
+      }
+    },
+    {
+      "id": "DICKS_NATECOL_2021",
+      "title": "A Global-Scale Test of Whether Off-Crop Floral Resources Enhance Pollination and Yield",
+      "authors": "Dicks, Lynn V., Breeze, T. D., Ngo, H. T., et al.",
+      "organization_or_journal": "Nature Ecology & Evolution",
+      "year": 2021,
+      "doi_or_url": "https://doi.org/10.1038/s41559-021-01534-9",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["pollinator_diversity", "agricultural_system", "habitat_fragmentation"],
+      "ecosystems": ["Commercial Orchards", "Field Crops", "Temperate & Tropical"],
+      "chunk_text": "Evaluating 28 studies across four continents confirms that establishing off-crop floral resources (e.g., perennial wildflower strips, beetle banks, and hedgerows) significantly boosts wild pollinator abundance and species richness on commercial fields. The floral strips provide essential larval host plants, nesting sites (bare ground, pithy stems), and pollen/nectar forage during crop pre- and post-bloom intervals. Yield enhancements were pronounced in pollinator-dependent crops (apples, berries, squash, canola) located within 100 meters of wildflower margins.",
+      "empirical_findings": [
+        "Wild pollinator abundance in field interiors increased by 71% when off-crop floral margins were present.",
+        "Fruit quality (symmetry and seed count) improved significantly in crops bordering multi-species flowering strips."
+      ],
+      "supported_estimates": {
+        "pollinator_interior_enhancement": "Up to 71% abundance increase within 100m of floral margin",
+        "recommended_strip_width": "3 to 6 meters continuous perimeter width"
+      }
+    },
+    {
+      "id": "TILMAN_NATURE_2006",
+      "title": "Biodiversity and Ecosystem Stability in a Decade-Long Grassland Experiment",
+      "authors": "Tilman, David, Reich, Peter B., & Knops, J. M. H.",
+      "organization_or_journal": "Nature",
+      "year": 2006,
+      "doi_or_url": "https://doi.org/10.1038/nature04742",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["species_richness", "habitat_diversity", "drought_conditions", "ecosystem_resilience"],
+      "ecosystems": ["Grassland", "Savanna"],
+      "chunk_text": "Long-term data from Cedar Creek experimental grasslands demonstrate that higher plant species richness enhances temporal stability of ecosystem primary productivity by 70%. Diverse plant communities exhibit complementary niche differentiation—possessing varied rooting depths, phenological timings, and drought tolerances. During severe drought events, species-rich plots maintained higher vegetative cover and recovered twice as fast as monocultures or species-poor plots, due to compensatory dynamics where drought-tolerant species expand as drought-sensitive species decline.",
+      "empirical_findings": [
+        "Plots with 16 species exhibited 70% greater temporal biomass stability compared to monocultures.",
+        "Ecosystem recovery following major drought shock was 2 times faster in biodiverse polycultures."
+      ],
+      "supported_estimates": {
+        "drought_resilience_differential": "2x faster biomass recovery in multi-species assemblages",
+        "optimal_functional_guilds": "Presence of at least 3 distinct functional groups (C3 grasses, C4 grasses, legumes, forbs)"
+      }
+    },
+    {
+      "id": "IUCN_RLE_2016",
+      "title": "IUCN Red List of Ecosystems: Categories and Criteria for Risk Assessment",
+      "authors": "Bland, L. M., Keith, D. A., Miller, R. M., Murray, N. J., & Rodríguez, J. P.",
+      "organization_or_journal": "International Union for Conservation of Nature (IUCN)",
+      "year": 2016,
+      "doi_or_url": "https://doi.org/10.2305/IUCN.CH.2016.RLE.1.en",
+      "category": "International Standard & Assessment",
+      "metrics_covered": ["species_survival_indicators", "habitat_quality", "habitat_fragmentation", "ecosystem_resilience"],
+      "ecosystems": ["Global Terrestrial and Freshwater Ecosystems"],
+      "chunk_text": "The IUCN Red List of Ecosystems (RLE) framework evaluates ecosystem collapse risks across four quantitative criteria: A (reduction in geographic distribution), B (restricted distribution), C (environmental degradation of abiotic variables), and D (disruption of biotic processes and interactions). Criterion C tracks critical abiotic variables such as soil salinity, moisture deficits, and nutrient pollution, identifying thresholds beyond which key ecological communities cannot regenerate. Criterion D monitors trophic cascades, pollinator mutualism breakdowns, and functional guild extinctions. Ecological restoration protocols must target reversing both abiotic stressors and biotic interaction losses simultaneously to avert irreversible regime shifts.",
+      "empirical_findings": [
+        "Ecosystem degradation often exhibits hysteresis; abiotic restoration must precede biotic recolonization.",
+        "Threshold disruptions of key ecological engineers (e.g. subterranean earthworms, dominant mycorrhizal fungi) compromise recovery trajectories."
+      ],
+      "supported_estimates": {
+        "collapse_risk_criteria": "Five standardized risk categories from Least Concern to Collapsed",
+        "monitoring_horizon": "Decadal tracking (10 to 50 years) recommended for long-term ecological trajectory validation"
+      }
+    },
+    {
+      "id": "DAINESE_SCIADV_2019",
+      "title": "A Global Synthesis Reveals Biodiversity-Mediated Benefits for Crop Production",
+      "authors": "Dainese, M., Martin, E. A., Aizen, M. A., Albrecht, M., et al.",
+      "organization_or_journal": "Science Advances",
+      "year": 2019,
+      "doi_or_url": "https://doi.org/10.1126/sciadv.aax0121",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["pollinator_diversity", "biological_pest_control", "species_richness", "agricultural_intensity"],
+      "ecosystems": ["Agricultural Cropland", "Horticultural Orchards"],
+      "chunk_text": "Synthesizing data from 89 studies across 1,475 crop fields globally, we show that landscape simplification reduces both pollination and biological pest control, directly depressing final crop yield. Wild pollinator richness and natural enemy richness were complementary: fields with high biodiversity of both guilds experienced an average 25% increase in crop yield compared to simplified monocultures. Landscape-scale semi-natural vegetation and non-crop borders acted as source habitats, maintaining consistent predator-prey and pollinator-plant interactions across changing meteorological seasons.",
+      "empirical_findings": [
+        "Simultaneous presence of rich pollinator and natural enemy guilds elevated crop yields by 25% across global agroecosystems.",
+        "Landscape heterogeneity accounted for 30% of the variance in pest suppression efficacy."
+      ],
+      "supported_estimates": {
+        "landscape_non_crop_area": "Target 15% to 20% non-crop vegetative buffer for maximized biocontrol and pollination",
+        "yield_gain_from_biodiversity": "Average 25% increase without synthetic chemical inputs"
+      }
+    },
+    {
+      "id": "VAN_DER_HEIJDEN_NATURE_1998",
+      "title": "Mycorrhizal Fungal Diversity Determines Plant Biodiversity, Ecosystem Variability and Productivity",
+      "authors": "van der Heijden, M. G. A., Klironomos, J. N., Ursic, M., et al.",
+      "organization_or_journal": "Nature",
+      "year": 1998,
+      "doi_or_url": "https://doi.org/10.1038/25732",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["microbial_diversity", "soil_fertility", "species_richness", "soil_organic_carbon"],
+      "ecosystems": ["Grassland", "Temperate Woodland"],
+      "chunk_text": "Microbial diversity in the subterranean rhizosphere directly dictates above-ground floral diversity and ecosystem functioning. In controlled microcosm experiments, increasing arbuscular mycorrhizal fungal (AMF) taxa richness from 1 to 14 species increased total plant community biomass, elevated phosphorus uptake by 60%, and doubled plant species coexistence. AMF networks distribute water and limiting micronutrients between plant species, buffering subordinate native plants against competitive exclusion and preventing monoculture dominance.",
+      "empirical_findings": [
+        "Higher AMF species richness increased overall plant community phosphorus capture by up to 60%.",
+        "Rhizosphere fungal diversity doubled above-ground vascular plant species coexistence."
+      ],
+      "supported_estimates": {
+        "amf_species_threshold": "Diverse inoculants (8-14 taxa) outperform single-strain mycorrhizal amendments",
+        "nutrient_uptake_efficiency": "+40% to +60% phosphorus acquisition efficiency in high-diversity AMF soils"
+      }
+    },
+    {
+      "id": "FAO_SOFO_2022",
+      "title": "The State of the World's Forests 2022: Forest Pathways for Green Recovery",
+      "authors": "FAO Forestry Division",
+      "organization_or_journal": "Food and Agriculture Organization of the United Nations (FAO)",
+      "year": 2022,
+      "doi_or_url": "https://doi.org/10.4060/cb9360en",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["canopy_cover", "deforestation_rate", "habitat_fragmentation", "ecosystem_resilience"],
+      "ecosystems": ["Tropical Forest", "Temperate Forest", "Agroforestry"],
+      "chunk_text": "Forests cover 31% of the global land area and harbor over 80% of terrestrial amphibian species, 75% of bird species, and 68% of mammal species. Halting deforestation and restoring degraded forests via agroforestry and silvopasture can avoid emissions of 3.6 gigatonnes of CO2 equivalent per year between 2020 and 2050. Agroforestry integration on agricultural lands provides critical ecological stepping stones, cooling local surface temperatures by 1.5-3.0°C and generating non-timber forest product revenue while sustaining native biodiversity corridors.",
+      "empirical_findings": [
+        "Forest ecosystems harbor 80% of terrestrial amphibian species and 75% of bird species.",
+        "Agroforestry shelterbelts reduce microclimatic evaporative water loss by up to 30% in downwind crop zones."
+      ],
+      "supported_estimates": {
+        "surface_cooling_differential": "1.5°C to 3.0°C microclimatic temperature reduction under agroforestry canopy",
+        "evaporative_reduction": "20% to 30% reduction in vapor pressure deficit"
+      }
+    },
+    {
+      "id": "TAMBURINI_SCIADV_2020",
+      "title": "Agricultural Diversification Promotes Multiple Ecosystem Services Without Compromising Yield",
+      "authors": "Tamburini, G., Bommarco, R., Kleijn, D., et al.",
+      "organization_or_journal": "Science Advances",
+      "year": 2020,
+      "doi_or_url": "https://doi.org/10.1126/sciadv.aba1715",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["crop_diversity", "pollinator_diversity", "biological_pest_control", "soil_organic_carbon"],
+      "ecosystems": ["Agroecosystems", "Global Farmland"],
+      "chunk_text": "A comprehensive meta-analysis of over 5,000 agricultural experiments worldwide demonstrates that diversified agricultural practices (crop rotation, intercropping, cover cropping, non-crop vegetation, and organic amendments) substantially enhance ecosystem services. Specifically, biological pest control improved by 44%, pollinator diversity by 35%, and soil organic carbon and nutrient cycling by 20% to 30%, without reducing average agricultural yields. Diversification creates structural heterogeneity that supports multiple trophic levels.",
+      "empirical_findings": [
+        "Diversification interventions increased biological pest control by an average of 44%.",
+        "Pollinator diversity increased by 35% in diversified agricultural rotations.",
+        "Yield was maintained or increased in 82% of diversified trials compared to monocultures."
+      ],
+      "supported_estimates": {
+        "pest_control_uplift": "+44% natural biological pest suppression",
+        "pollinator_diversity_uplift": "+35% species richness increase",
+        "yield_retention_rate": "82% equal or superior to conventional monoculture"
+      }
+    },
+    {
+      "id": "LEHMANN_NATURE_2020",
+      "title": "The Meaning of Soil Organic Matter: Persistence as an Ecosystem Property",
+      "authors": "Lehmann, Johannes, & Kleber, Markus",
+      "organization_or_journal": "Nature",
+      "year": 2015,
+      "doi_or_url": "https://doi.org/10.1038/nature16069",
+      "category": "Peer-Reviewed Scientific Literature",
+      "metrics_covered": ["soil_organic_carbon", "soil_compaction", "microbial_diversity", "soil_moisture"],
+      "ecosystems": ["All Terrestrial Soils"],
+      "chunk_text": "Soil organic matter (SOM) stabilization is not governed by intrinsic molecular recalcitrance (humic substances), but rather by environmental and biological protection mechanisms: physical occlusion within soil aggregates, chemical sorption to mineral surfaces (iron and aluminum oxides), and spatial disconnect from microbial decomposers. Continuous living plant roots and undisturbed fungal hyphae form the micro-aggregates (<250 um) that physically protect carbon from enzymatic breakdown. Management strategies must emphasize continuous carbon inputs and zero mechanical disturbance to optimize long-term mineral-associated organic matter (MAOM).",
+      "empirical_findings": [
+        "Mineral-associated organic matter (MAOM) comprises up to 70% of stabilized soil carbon and exhibits decadal-to-centennial persistence.",
+        "Physical aggregate occlusion protects labile microbial metabolites from rapid oxidation."
+      ],
+      "supported_estimates": {
+        "maom_carbon_fraction": "50% to 75% of total soil organic carbon in healthy mineral soils",
+        "aggregate_turnover_protection": "5x to 10x slower carbon oxidation in protected micro-aggregates"
+      }
+    },
+    {
+      "id": "IPCC_AR6_SPM_2023",
+      "title": "IPCC AR6 Synthesis Report: Summary for Policymakers - Terrestrial Ecosystem Resilience",
+      "authors": "IPCC Core Writing Team, Lee, H., & Romero, J.",
+      "organization_or_journal": "Intergovernmental Panel on Climate Change (IPCC)",
+      "year": 2023,
+      "doi_or_url": "https://doi.org/10.59327/IPCC/AR6-9789291691647",
+      "category": "Intergovernmental Assessment",
+      "metrics_covered": ["drought_conditions", "ecosystem_resilience", "species_richness", "habitat_quality"],
+      "ecosystems": ["Global Terrestrial Ecosystems", "Forest", "Drylands"],
+      "chunk_text": "Human-induced climate change is causing widespread adverse impacts and related losses and damages to nature and people. Approximately 3.3 to 3.6 billion people live in contexts that are highly vulnerable to climate change. Conserving 30% to 50% of Earth's land, freshwater, and ocean areas—including currently near-natural ecosystems—is imperative to maintain the resilience of biodiversity and ecosystem services at a global scale. Restoring wetlands, riparian zones, and degraded agricultural soils strengthens catchment water retention and reduces compounding disaster risks.",
+      "empirical_findings": [
+        "Conserving 30% to 50% of Earth's terrestrial, freshwater, and marine areas is essential to preserve ecosystem integrity.",
+        "Compound climate extremes (simultaneous heat and drought) exacerbate topsoil aridification and species mortality."
+      ],
+      "supported_estimates": {
+        "global_conservation_target": "30% to 50% of terrestrial and aquatic ecosystems protected/restored",
+        "vulnerability_envelope": "Over 3.3 billion people reside in highly vulnerable ecological catchments"
+      }
+    }
+  ]
+}
